@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    place-items: center;
+    display: grid;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#6add0b6e  ;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    height: 550px;
+    background-color: white;
+    border: 1px solid #a05d5d;
+    box-shadow: 0 2px 8px 0 rgba(99, 99, 99, 0.2);
+    border-radius: 20px 20px 20px 20px ;
+}
+.header-card{
+   width: 100%;
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+}
+.header-card .img-fondo{
+  width: 100%;
+  border-radius: 20px 20px 0px 0px ;
+}
+.avatar{
+    position: absolute;
+    width: 110px;
+    padding: 6px;
+    top: 205px;
+    left: calc(50% - 70px);
+    border-radius: 90px 90px 90px 90px; 
+}
+.container .card {
+    text-align: center;
+    padding: 2rem;
+}
+.container .title {
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+.container .direction {
+    font-weight: 500;
+    color: red;
+}
+.container .sobre-mi {
+    padding: 1.2rem;
+    color: rgba(0, 0, 0, 0.774);
+}
+.container .follow {
+    width: 90px;
+    height: 30px;
+    font-weight: 600;
+    cursor: pointer;
+    border: 2px solid #a05d5d;
+    border-radius: 40px;
+    margin-top: -35px;
+    color: #a05d5d;
+    background-color: white;
+}
+footer {
+  padding: 1rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  border-top: 1px solid #a05d5d;
+}
+footer .post{
+  width: 80px;
+  height: 30px;
+  margin: 5px;
+}
+footer .followers {
+  width: 90px;
+  height: 30px;
+  margin: 5px;
+}
+footer .following {
+  width: 90px;
+  height: 30px;
+  margin: 5px;
+}
+
